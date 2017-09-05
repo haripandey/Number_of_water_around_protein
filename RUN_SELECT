@@ -1,0 +1,3 @@
+#!/bin/bash
+gmx_d select -f NVTPRODCT.trr -s NVTPRODCT.tpr -on -tu ps -os  -of -ofpdb <choic.txt
+
